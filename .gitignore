@@ -1,0 +1,45 @@
+# ===== Image data & datasets (large, don't belong in git) =====
+*.jpg
+*.jpeg
+*.png
+*.zip
+data/
+train/
+test/
+labels.csv
+sample_submission.csv
+
+# ===== Jupyter / Colab =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# ===== Conda / virtual environments =====
+.conda/
+.venv/
+venv/
+env/
+
+# ===== Trained models / checkpoints (large binary files) =====
+*.h5
+*.keras
+*.pb
+*.pkl
+saved_model/
+checkpoints/
+
+# ===== OS / editor junk =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
+logs/
